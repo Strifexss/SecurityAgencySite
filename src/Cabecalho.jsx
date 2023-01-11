@@ -7,7 +7,6 @@ const Main = styled.header`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
     color: #c5c2c2;
 
     h1 {
@@ -50,7 +49,7 @@ export default function Cabecalho() {
         <Main>
             <h1>Agency</h1>
             <section>
-                <p>Teste</p>
+                <p>Business</p>
                 <p>Teste</p>
                 <p>Teste</p>
                 <p>Teste</p>
