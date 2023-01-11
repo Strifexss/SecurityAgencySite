@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SecurityAgencySite/static/css/main.455ea80a.css",
-    "main.js": "/SecurityAgencySite/static/js/main.13576691.js",
+    "main.js": "/SecurityAgencySite/static/js/main.f48d01ce.js",
     "index.html": "/SecurityAgencySite/index.html",
     "main.455ea80a.css.map": "/SecurityAgencySite/static/css/main.455ea80a.css.map",
-    "main.13576691.js.map": "/SecurityAgencySite/static/js/main.13576691.js.map"
+    "main.f48d01ce.js.map": "/SecurityAgencySite/static/js/main.f48d01ce.js.map"
   },
   "entrypoints": [
     "static/css/main.455ea80a.css",
-    "static/js/main.13576691.js"
+    "static/js/main.f48d01ce.js"
   ]
 }
