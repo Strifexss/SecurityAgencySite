@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SecurityAgencySite/static/css/main.e6c13ad2.css",
+    "main.js": "/SecurityAgencySite/static/js/main.a472739e.js",
+    "index.html": "/SecurityAgencySite/index.html",
+    "main.e6c13ad2.css.map": "/SecurityAgencySite/static/css/main.e6c13ad2.css.map",
+    "main.a472739e.js.map": "/SecurityAgencySite/static/js/main.a472739e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a472739e.js"
+  ]
+}
