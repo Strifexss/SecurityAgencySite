@@ -9,6 +9,14 @@ const Main = styled.header`
     align-items: center;
     color: #c5c2c2;
 
+    @media screen and (max-width: 850px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
     h1 {
         cursor: pointer;
     }

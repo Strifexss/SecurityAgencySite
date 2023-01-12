@@ -1,9 +1,31 @@
 import styled from "styled-components"
 import Fade from "react-reveal"
+import ManPc from "./imgs/HomemDeNegociosPC.webp"
+
 const Main = styled.div`
     margin: 2rem;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 60% 40%;
+
+    section {
+        img {
+            width: 100%;
+            height: 100%;
+            margin-left: 1rem;
+
+        @media screen and (max-width: 850px) {
+            margin-left: 0;
+            margin-top: 1rem;
+        }
+        }
+    }
+
+    @media screen and (max-width: 850px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 `
 
 const Texto = styled.div`
@@ -17,10 +39,18 @@ const Texto = styled.div`
     justify-content: center;
     align-items: left;
 
+    @media screen and (max-width: 850px) {
+        width: 100%;
+    }
+
     h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         text-align: left;
         margin: 1rem;
+
+        @media screen and (max-width: 850px) {
+            font-size: 2.5rem;
+    }
     }
 
     P{
@@ -42,7 +72,11 @@ const Texto = styled.div`
             transform: scale(110%);
         }
     }
+
+   
 `
+
+
 
 export default function Business() {
     return(
@@ -54,7 +88,11 @@ export default function Business() {
                 <button><h4>REQUEST DEMO</h4></button>
             </Texto>
             </Fade>
-            <h1>Teste</h1>
+            <Fade left>
+                <section>
+                    <img src={ManPc} alt="PessoaUsandoOComputador" />
+                </section>
+            </Fade>
         </Main>
     )
 }
