@@ -1,17 +1,17 @@
 import styled from "styled-components"
-import Fade from "react-reveal"
-import ManPc from "./imgs/HomemDeNegociosPC.webp"
-
+import PessoasConversando from "./imgs/PessoasConversando.webp"
+import Fade from "react-reveal/Fade"
 const Main = styled.div`
     margin: 2rem;
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: 60% 40%;
-    
+
     section {
+        margin-right: 1rem;
         img {
             width: 100%;
             height: 100%;
-            margin-left: 1rem;
 
         @media screen and (max-width: 850px) {
             margin-left: 0;
@@ -32,8 +32,8 @@ const Texto = styled.div`
     display: flex;
     width: 100%;
     height: 60vh;
-    color: #F6D9F2;
-    background-color: #9F0051;
+    color: #E7E7E7;
+    background-color: #000000;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +44,7 @@ const Texto = styled.div`
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         text-align: left;
         margin: 1rem;
 
@@ -76,23 +76,19 @@ const Texto = styled.div`
    
 `
 
-
-
-export default function Business() {
+export default function PersonalSecurity() {
     return(
-        <Main id="Business">
-            <Fade left>
-            <Texto>
-                <h1>Get Personal Security <br /> For You Company's Managers</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus corrupti exercitationem enim ipsam ducimus necessitatibus, obcaecati accusamus, quisquam molestias, blanditiis incidunt nesciunt harum! At itaque necessitatibus provident cum quae.</p>
-                <button><h4>REQUEST DEMO</h4></button>
-            </Texto>
-            </Fade>
-            <Fade left>
-                <section>
-                    <img src={ManPc} alt="PessoaUsandoOComputador" />
-                </section>
-            </Fade>
+        <Fade right>
+        <Main id="Personal">
+            <section>
+                <img src={PessoasConversando} alt="Pessoas COnversando" />
+            </section>
+           <Texto>
+                <h1>Personal Cybersecurity Is  Now A Company Problem</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores dolorem enim, odit sapiente soluta, saepe voluptates quibusdam unde iste cumque dolore ipsam aliquid dolor exercitationem, impedit repellat praesentium qui ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde perspiciatis fugit officiis nobis necessitatibus, eligendi autem odio? Ex ut consequatur saepe rerum eveniet eligendi placeat est sapiente. Enim, excepturi.</p>
+                <button>Learn More</button>
+           </Texto>
         </Main>
+        </Fade>
     )
 }

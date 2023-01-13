@@ -8,17 +8,23 @@ const Main = styled.header`
     justify-content: space-around;
     align-items: center;
     color: #c5c2c2;
+    position: fixed;
+    top: 0;
 
     @media screen and (max-width: 850px) {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 15%;
     }
 
     h1 {
         cursor: pointer;
+        
+        @media screen and (max-width: 850px) {
+            font-size: 1.5rem;
+        }
     }
 
     section {
@@ -26,9 +32,19 @@ const Main = styled.header`
         justify-content: center;
         align-items: center;
 
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+
         p {
             margin: 1rem;
             cursor: pointer;
+
+            
+        @media screen and (max-width: 850px) {
+           font-size: 1rem;
+        }
 
             :hover {
                 color: #868686;
@@ -46,6 +62,11 @@ const Main = styled.header`
         cursor: pointer;
         transform: scale(90%);
         transition: 0.1s;
+
+        @media screen and (max-width: 850px) {
+            height: 1.5rem;
+        }
+
         :hover {
             transform: scale(100%);
         }
@@ -57,14 +78,13 @@ export default function Cabecalho() {
         <Main>
             <h1>Agency</h1>
             <section>
-                <p>Business</p>
-                <p>Teste</p>
-                <p>Teste</p>
+                <a href="#Business"><p>Business</p></a>
+                <a href="#TrustedLiders"><p>TrustedLiders</p></a>
+                <a href="#Personal"><p>PersonalSecurity</p></a>
                 <p>Teste</p>
                 <p>Teste</p>
             </section>
             <button>Join Now</button>
         </Main>
-        
     )
 }
