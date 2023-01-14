@@ -13,6 +13,21 @@ const Main = styled.div`
     justify-content: center;
     align-items: center;
 
+    button {
+        width: 9rem;
+        height: 2.5rem;
+        margin: 1rem;
+        background-color: #9F0051;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+
+        :hover {
+            transform: scale(110%);
+        }
+    }
+
     p {
         font-weight: bold;
         font-size: 1.5rem;
@@ -28,7 +43,6 @@ const Main = styled.div`
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
-        
     }
 
 `
@@ -36,7 +50,7 @@ const Main = styled.div`
 export default function BusinessChose() {
     return(
         <Fade bottom>
-        <Main>
+        <Main id="ChoseWe">
             <p>Never Face Problems Alone Again!</p>
             <h1>Why Business Chose Agency?</h1>
             <section>
@@ -45,6 +59,7 @@ export default function BusinessChose() {
                 <BusinessChoseComponents Icon={Thunder} Texto="Quick & Affordable" />
                 <BusinessChoseComponents Icon={CreditCard} Texto="Up To $500k Agency Cyber Guarantee"/>
             </section>
+            <button>Request Demo</button>
         </Main>
         </Fade>
     )

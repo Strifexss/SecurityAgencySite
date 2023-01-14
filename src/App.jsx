@@ -3,6 +3,7 @@ import Business from "./Business";
 import TrustedLiders from "./TrustedLiders";
 import PersonalSecurity from "./PersonalSecurity";
 import BusinessChose from "./BusinessChose";
+import WhatWeDo from "./WhatWeDo";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <TrustedLiders/>
       <PersonalSecurity/>
       <BusinessChose/>
+      <WhatWeDo/>
       <Cabecalho/>
     </div>
   );

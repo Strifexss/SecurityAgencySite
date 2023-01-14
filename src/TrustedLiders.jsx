@@ -12,7 +12,8 @@ const Main = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     h1 {
         text-align: center;
 
@@ -44,7 +45,7 @@ const Main = styled.div`
 
 export default function TrustedLiders() {
     return(
-        <Fade bottom>
+        <Fade top>
         <Main id="TrustedLiders">
             <h1>Trusted By Leaders From Professional <br /> Institutions Around The World</h1>
             <section>

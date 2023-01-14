@@ -81,7 +81,7 @@ export default function Cabecalho() {
                 <a href="#Business"><p>Business</p></a>
                 <a href="#TrustedLiders"><p>TrustedLiders</p></a>
                 <a href="#Personal"><p>PersonalSecurity</p></a>
-                <p>Teste</p>
+                <a href="#ChoseWe"><p>Why Chose We</p></a>
                 <p>Teste</p>
             </section>
             <button>Join Now</button>
