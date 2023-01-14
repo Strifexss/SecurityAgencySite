@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/SecurityAgencySite/static/css/main.cf919043.css",
-    "main.js": "/SecurityAgencySite/static/js/main.9575c9f1.js",
+    "main.js": "/SecurityAgencySite/static/js/main.f2dd4cca.js",
     "static/media/HomemDeNegociosPC.webp": "/SecurityAgencySite/static/media/HomemDeNegociosPC.a90b7b2c8c79188ea93e.webp",
     "static/media/DisneyLogo.png": "/SecurityAgencySite/static/media/DisneyLogo.79f007e33dfe48e7b859.png",
     "static/media/AdidasLogo.png": "/SecurityAgencySite/static/media/AdidasLogo.b8a125160a1c20fa5558.png",
+    "static/media/PessoaEmFrenteAoPc.jpg": "/SecurityAgencySite/static/media/PessoaEmFrenteAoPc.73d31ed2eefc1e453c49.jpg",
     "static/media/NikeLogo.png": "/SecurityAgencySite/static/media/NikeLogo.1e77dbe6b4dd3eff6dcf.png",
     "static/media/PessoasConversando.webp": "/SecurityAgencySite/static/media/PessoasConversando.99df441ba5f8d226df17.webp",
     "static/media/StanfordLogo.png": "/SecurityAgencySite/static/media/StanfordLogo.fff35a1b335ea368bb38.png",
     "static/media/HavardLogo.png": "/SecurityAgencySite/static/media/HavardLogo.fe03df645befe2923172.png",
     "index.html": "/SecurityAgencySite/index.html",
     "main.cf919043.css.map": "/SecurityAgencySite/static/css/main.cf919043.css.map",
-    "main.9575c9f1.js.map": "/SecurityAgencySite/static/js/main.9575c9f1.js.map"
+    "main.f2dd4cca.js.map": "/SecurityAgencySite/static/js/main.f2dd4cca.js.map"
   },
   "entrypoints": [
     "static/css/main.cf919043.css",
-    "static/js/main.9575c9f1.js"
+    "static/js/main.f2dd4cca.js"
   ]
 }
