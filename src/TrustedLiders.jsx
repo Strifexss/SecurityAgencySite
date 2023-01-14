@@ -47,7 +47,7 @@ export default function TrustedLiders() {
     return(
         <Fade top>
         <Main id="TrustedLiders">
-            <h1>Trusted By Leaders From Professional <br /> Institutions Around The World</h1>
+            <h1>Confiável Por líderes De Instituições <br /> Profissionais Ao Redor Do Mundo</h1>
             <section>
                 <img src={Disney} alt="Disney" />
                 <img src={NikeLogo} alt="Nike" />

@@ -84,9 +84,9 @@ export default function PersonalSecurity() {
                 <img src={PessoasConversando} alt="Pessoas COnversando" />
             </section>
            <Texto>
-                <h1>Personal Cybersecurity Is  Now A Company Problem</h1>
+                <h1>A Segurança Cibernética Pessoal Agora É Um Problema Da Nossa Empresa</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores dolorem enim, odit sapiente soluta, saepe voluptates quibusdam unde iste cumque dolore ipsam aliquid dolor exercitationem, impedit repellat praesentium qui ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde perspiciatis fugit officiis nobis necessitatibus, eligendi autem odio? Ex ut consequatur saepe rerum eveniet eligendi placeat est sapiente. Enim, excepturi.</p>
-                <button>Learn More</button>
+                <button>Ler Mais</button>
            </Texto>
         </Main>
         </Fade>

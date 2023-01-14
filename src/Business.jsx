@@ -83,9 +83,9 @@ export default function Business() {
         <Main id="Business">
             <Fade left>
             <Texto>
-                <h1>Get Personal Security <br /> For You Company's Managers</h1>
+                <h1>Obtenha segurança pessoal Para Vocês Gestores da Empresa</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus corrupti exercitationem enim ipsam ducimus necessitatibus, obcaecati accusamus, quisquam molestias, blanditiis incidunt nesciunt harum! At itaque necessitatibus provident cum quae.</p>
-                <button><h4>REQUEST DEMO</h4></button>
+                <button><h4>SOLICITAR DEMO</h4></button>
             </Texto>
             </Fade>
             <Fade left>
