@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SecurityAgencySite/static/css/main.cf919043.css",
-    "main.js": "/SecurityAgencySite/static/js/main.cc678911.js",
+    "main.js": "/SecurityAgencySite/static/js/main.434c59f9.js",
     "static/media/HomemDeNegociosPC.webp": "/SecurityAgencySite/static/media/HomemDeNegociosPC.a90b7b2c8c79188ea93e.webp",
     "static/media/DisneyLogo.png": "/SecurityAgencySite/static/media/DisneyLogo.79f007e33dfe48e7b859.png",
     "static/media/AdidasLogo.png": "/SecurityAgencySite/static/media/AdidasLogo.b8a125160a1c20fa5558.png",
@@ -12,10 +12,10 @@
     "static/media/HavardLogo.png": "/SecurityAgencySite/static/media/HavardLogo.fe03df645befe2923172.png",
     "index.html": "/SecurityAgencySite/index.html",
     "main.cf919043.css.map": "/SecurityAgencySite/static/css/main.cf919043.css.map",
-    "main.cc678911.js.map": "/SecurityAgencySite/static/js/main.cc678911.js.map"
+    "main.434c59f9.js.map": "/SecurityAgencySite/static/js/main.434c59f9.js.map"
   },
   "entrypoints": [
     "static/css/main.cf919043.css",
-    "static/js/main.cc678911.js"
+    "static/js/main.434c59f9.js"
   ]
 }
