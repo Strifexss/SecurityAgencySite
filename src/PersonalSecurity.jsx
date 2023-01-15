@@ -41,6 +41,7 @@ const Texto = styled.div`
 
     @media screen and (max-width: 850px) {
         width: 100%;
+        height: 90vh;
     }
 
     h1 {

@@ -11,10 +11,11 @@ function App() {
   return (
     <div>
       <Business/>
-      <TrustedLiders/>
-      <PersonalSecurity/>
       <BusinessChose/>
+      <PersonalSecurity/>
+      <HowItWorks/>
       <WhatWeDo/>
+      <TrustedLiders/>
       <Cabecalho/>
       <CabecalhoMobile/>
     </div>

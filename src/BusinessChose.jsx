@@ -68,15 +68,15 @@ export default function BusinessChose() {
     return(
         <Fade bottom>
         <Main id="ChoseWe">
-            <p>Never Face Problems Alone Again!</p>
-            <h1>Why Business Chose Agency?</h1>
+            <p>Nunca Encare Problemas Sozinho De Novo!</p>
+            <h1>Por Que As Empresas Escolhem A Agency?</h1>
             <section>
-                <BusinessChoseComponents Icon = {People} Texto="Your Elite Security Team"/>
-                <BusinessChoseComponents Icon={Paper} Texto="Comprehensive BYOD Policy"/>
-                <BusinessChoseComponents Icon={Thunder} Texto="Quick & Affordable" />
-                <BusinessChoseComponents Icon={CreditCard} Texto="Up To $500k Agency Cyber Guarantee"/>
+                <BusinessChoseComponents Icon = {People} Texto="Nossa equipe de segurança de Elite"/>
+                <BusinessChoseComponents Icon={Paper} Texto="Política abrangente de BYOD"/>
+                <BusinessChoseComponents Icon={Thunder} Texto="Rápido e acessível" />
+                <BusinessChoseComponents Icon={CreditCard} Texto="Garantia de Proteção de até $ 500.000"/>
             </section>
-            <button>Request Demo</button>
+            <button>Solicitar Demo</button>
         </Main>
         </Fade>
     )

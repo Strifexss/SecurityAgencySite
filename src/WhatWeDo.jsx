@@ -50,6 +50,7 @@ const Texto = styled.div`
 
         @media screen and (max-width: 850px) {
             font-size: 2.5rem;
+            text-align: center;
     }
     }
 
@@ -58,6 +59,7 @@ const Texto = styled.div`
 
         h2{
             margin-top: 1rem;
+            margin-left: 1rem;
         }
     }
  
@@ -68,11 +70,11 @@ export default function WhatWeDo() {
         <Fade left>
         <Main>
            <Texto>
-            <h1>What We Do?</h1>
+            <h1>O QUE FAZEMOS?</h1>
             <section>
-                <h2>✔ Advanced Security Software</h2>
-                <h2>✔ Cyber Coverage</h2>
-                <h2>✔ 24/7 Active Monitoring and Response</h2>
+                <h2>✔ Softwares de segurança avançados</h2>
+                <h2>✔ Cobertura Cibernética</h2>
+                <h2>✔ Monitoramento e resposta ativos 24 horas por dia, 7 dias por semana</h2>
             </section>
            </Texto>
             <section>

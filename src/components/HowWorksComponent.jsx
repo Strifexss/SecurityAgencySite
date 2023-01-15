@@ -7,6 +7,9 @@ const Flexar = styled.div`
     justify-content: center;
     align-items: Center;
     margin: 5rem;
+
+
+
     img {
         width: 7rem;
         height: 7rem;
@@ -19,6 +22,10 @@ display: flex;
 justify-content: center;
 align-items: center;
    
+@media screen and (max-width: 850px) {
+    flex-direction: column;
+}
+
     h1 {
         font-size: 2rem;
         margin-right: 1rem;
@@ -33,6 +40,12 @@ align-items: center;
 const Textos = styled.div`
     display: flex;
     flex-direction: column;
+    
+    @media screen and (max-width: 850px) {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
 
     h1 {
         color: #fff;
