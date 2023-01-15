@@ -17,7 +17,8 @@ const Main = styled.header`
         justify-content: center;
         align-items: center;
         height: 15%;
-    }
+        display: none;
+    }   
 
     h1 {
         cursor: pointer;

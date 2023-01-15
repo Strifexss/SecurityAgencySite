@@ -5,6 +5,8 @@ import PersonalSecurity from "./PersonalSecurity";
 import BusinessChose from "./BusinessChose";
 import WhatWeDo from "./WhatWeDo";
 import HowItWorks from "./HowItWorks";
+import CabecalhoMobile from "./CabecalhoMobile";
+
 function App() {
   return (
     <div>
@@ -13,8 +15,8 @@ function App() {
       <PersonalSecurity/>
       <BusinessChose/>
       <WhatWeDo/>
-      <HowItWorks/>
       <Cabecalho/>
+      <CabecalhoMobile/>
     </div>
   );
 }

@@ -7,6 +7,13 @@ const Main = styled.div`
     display: grid;
     grid-template-columns: 60% 40%;
     
+    @media screen and (max-width: 850px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     section {
         img {
             width: 100%;
@@ -41,6 +48,8 @@ const Texto = styled.div`
 
     @media screen and (max-width: 850px) {
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     h1 {
@@ -50,12 +59,17 @@ const Texto = styled.div`
 
         @media screen and (max-width: 850px) {
             font-size: 2.5rem;
+            text-align: center;
     }
     }
 
     P{
         text-align: left;
         margin: 1rem;
+
+        @media screen and (max-width: 850px) {
+            text-align: center;
+    }
     }
 
     button {

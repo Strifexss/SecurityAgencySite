@@ -13,6 +13,7 @@ const Main = styled.div`
     justify-content: center;
     align-items: center;
 
+
     button {
         width: 9rem;
         height: 2.5rem;
@@ -32,17 +33,33 @@ const Main = styled.div`
         font-weight: bold;
         font-size: 1.5rem;
         color: #737373;
+
+        @media screen and (max-width: 850px) {
+            text-align: center;
+        }
     }
 
     h1 {
         margin-top: 2rem;
         font-size: 4rem;
+
+        @media screen and (max-width: 850px) {
+            font-size: 2rem;
+            text-align: center;
+        }
     }
 
     section {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
+
+        @media screen and (max-width: 850px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
 `

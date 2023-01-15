@@ -17,6 +17,12 @@ const Main = styled.div`
         transform: scale(100%);
     }
 
+    @media screen and (max-width: 850px) {
+        align-items: center;
+        width: 20rem;
+        height: 28rem;
+    }
+
     img{
         margin-top: 1rem;
         width: 4.5rem;
@@ -28,11 +34,19 @@ const Main = styled.div`
         color: #202020;
         font-size: 1.5rem;
         margin-bottom: 1rem;
+
+        @media screen and (max-width: 850px) {
+            text-align: center;
+        }
     }
 
     p {
         color: #B1B1B1;
         margin-bottom: 1rem;
+
+        @media screen and (max-width: 850px) {
+            text-align: center;
+        }
     }
 `
 
