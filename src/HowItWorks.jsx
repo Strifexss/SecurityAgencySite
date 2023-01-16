@@ -4,6 +4,7 @@ import {Fade} from "react-reveal"
 import LatterIcon from "./imgs/Icons/LatterIcon.png"
 import InstallIcon from "./imgs/Icons/InstallIcon.png"
 import PersonalizedIcon from "./imgs/Icons/PersonalizedIcon.png"
+import PeopleIcon from "./imgs/Icons/PeopleIcon.png"
 
 const Main = styled.div`
     height: 90vh;
@@ -15,6 +16,9 @@ const Main = styled.div`
 
     @media screen and (max-width: 850px) {
         height: 250vh;
+    }
+    @media screen and (min-width: 850px) and (max-width: 1119px) {
+        height: 100vh;
     }
 
 
@@ -40,13 +44,13 @@ const Main = styled.div`
 export default function HowItWorks() {
     return(
         <Fade>
-        <Main>
-            <h1>Como Funciona?</h1>
+        <Main id="HowItWork">
+            <h1 >Como Funciona?</h1>
             <section>
                 <HowWorksComponent Imagem = {LatterIcon} Texto = "Simples De Fazer Cadastro" Numero = "1"/>
                 <HowWorksComponent Imagem = {PersonalizedIcon} Texto = "Integração Personalizada" Numero = "2"/>
                 <HowWorksComponent Imagem = {InstallIcon} Texto = "Fácil Instalação" Numero = "3"/>
-                <HowWorksComponent Imagem = {LatterIcon} Texto = "Paz de Espírito Completa" Numero = "4"/>
+                <HowWorksComponent Imagem = {PeopleIcon} Texto = "Paz de Espírito Completa" Numero = "4"/>
             </section>
         </Main>
         </Fade>

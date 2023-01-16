@@ -47,6 +47,9 @@ const Main = styled.div`
             font-size: 2rem;
             text-align: center;
         }
+        @media screen and (max-width: 1395px) and (min-width: 851px) {
+            text-align: center;
+        }
     }
 
     section {
@@ -54,7 +57,7 @@ const Main = styled.div`
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
 
-        @media screen and (max-width: 850px) {
+        @media screen and (max-width: 1035px) {
             display: flex;
             flex-direction: column;
             justify-content: center;

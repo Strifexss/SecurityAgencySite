@@ -16,6 +16,7 @@ const Main = styled.div`
         @media screen and (max-width: 850px) {
             margin-left: 0;
             margin-top: 1rem;
+            width: 105%;
         }
         }
     }
@@ -68,7 +69,7 @@ const Texto = styled.div`
 export default function WhatWeDo() {
     return(
         <Fade left>
-        <Main>
+        <Main id="WhatWeDo" >
            <Texto>
             <h1>O QUE FAZEMOS?</h1>
             <section>

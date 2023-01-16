@@ -15,6 +15,7 @@ const Main = styled.div`
 
         @media screen and (max-width: 850px) {
             margin-left: 0;
+            width: 105%;
             margin-top: 1rem;
         }
         }
@@ -39,11 +40,12 @@ const Texto = styled.div`
     justify-content: center;
     align-items: left;
 
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 1124px) {
         width: 100%;
+        align-items: center;
         height: 90vh;
     }
-
+   
     h1 {
         font-size: 3rem;
         text-align: left;
@@ -52,11 +54,18 @@ const Texto = styled.div`
         @media screen and (max-width: 850px) {
             font-size: 2.5rem;
     }
+        @media screen and (max-width: 1124px) and (min-width: 851px) {
+            text-align: center;
+        }
     }
 
     P{
         text-align: left;
         margin: 1rem;
+
+        @media screen and (max-width: 1124px) and (min-width: 851px) {
+            text-align: center;
+        }
     }
 
     button {

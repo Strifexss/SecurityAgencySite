@@ -61,6 +61,10 @@ const Texto = styled.div`
             font-size: 2.5rem;
             text-align: center;
     }
+        @media screen and (min-width: 850px) and (max-width: 1368px) {
+            font-size: 3rem;
+            text-align: left;
+    }
     }
 
     P{

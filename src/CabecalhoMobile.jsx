@@ -36,8 +36,17 @@ const Modal = styled.div`
     color: #fff;
     background-color: #fff;
 
-    h1 {
-        color: black;
+    h3 {
+        color: #fff;
+        background-color: #9F0051;
+        width: 11rem;
+        height: 4rem;
+        border-radius: 1rem;
+        display: flex;
+        border: solid 4px #da4391;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     a {
@@ -54,7 +63,7 @@ const Modal = styled.div`
         cursor: pointer;
         transform: scale(90%);
         transition: 0.1s;
-
+        margin-bottom: 2rem;
         
 
         :hover {
@@ -104,10 +113,12 @@ export default function CabecalhoMobile() {
                 {visibilidade === "visible" &&                          
                         <Modal>
                             <Fade bottom>
-                           <a href="#Business" onClick={HandleVisibility}><h1>Business</h1></a>
-                           <a href="#TrustedLiders" onClick={HandleVisibility}><h1>TrustedLiders</h1></a>
-                           <a href="#Personal" onClick={HandleVisibility}><h1>PersonalSecurity</h1></a>
-                           <a href="#ChoseWe" onClick={HandleVisibility}><h1>Why Chose We</h1></a>
+                           <a href="#Business" onClick={HandleVisibility}><h3>Quem Somos Nós?</h3></a>
+                           <a href="#ChoseWe" onClick={HandleVisibility}><h3>Por Que Nós Escolher?</h3></a>
+                           <a href="#Personal" onClick={HandleVisibility}><h3>Segurança Pessoal</h3></a>
+                           <a href="#HowItWork" onClick={HandleVisibility}><h3>Como Funciona</h3></a>
+                           <a href="#WhatWeDo" onClick={HandleVisibility}><h3>O Que Fazemos</h3></a>
+                           <a href="#TrustedLiders" onClick={HandleVisibility}><h3>Empresas Que Confiam Na gente</h3></a>
                             <button>Solicitar Demo</button>
                             </Fade>
                         </Modal>
