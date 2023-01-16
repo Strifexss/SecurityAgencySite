@@ -10,7 +10,7 @@ const Main = styled.div`
     section {
         margin-right: 1rem;
         img {
-            width: 100%;
+            width: 103%;
             height: 86%;
             margin-left: 1rem;
         @media screen and (max-width: 850px) {
