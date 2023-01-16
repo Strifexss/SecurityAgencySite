@@ -41,7 +41,7 @@ const Main = styled.header`
         p {
             margin: 1rem;
             cursor: pointer;
-
+            text-align: center;
             
         @media screen and (max-width: 850px) {
            font-size: 1rem;
@@ -79,11 +79,12 @@ export default function Cabecalho() {
         <Main>
             <h1>Agency</h1>
             <section>
-                <a href="#Business"><p>Business</p></a>
-                <a href="#TrustedLiders"><p>TrustedLiders</p></a>
-                <a href="#Personal"><p>PersonalSecurity</p></a>
-                <a href="#ChoseWe"><p>Why Chose We</p></a>
-                <p>Teste</p>
+                            <a href="#Business"><p>Quem Somos Nós?</p></a>
+                           <a href="#ChoseWe"><p>Por Que Nós Escolher?</p></a>
+                           <a href="#Personal"><p>Segurança Pessoal</p></a>
+                           <a href="#HowItWork"><p>Como Funciona</p></a>
+                           <a href="#WhatWeDo"><p>O Que Fazemos</p></a>
+                           <a href="#TrustedLiders"><p>Empresas Que Confiam Na gente</p></a>
             </section>
             <button>Join Now</button>
         </Main>
